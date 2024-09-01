@@ -33,7 +33,7 @@ getgenv().Config = {
         ["Click Delay"] = 0.1,
         ["Fps Boost"] = false
     },
-    ["Items"] = {["Use"] = {"Melee", "Gun", "Sword"},
+    ["Items"] = {["Use"] = {"Melee", "Blox Fruit", "Sword"},
         ["Melee"] = {
             ["Enable"] = true,
             ["Delay"] = 1,
@@ -45,7 +45,7 @@ getgenv().Config = {
             }
         },
         ["Blox Fruit"] = {
-            ["Enable"] = false,
+            ["Enable"] = true,
             ["Delay"] = 6,
             ["Skills"] = {
                 ["Z"] = {["Enable"] = true, ["HoldTime"] = 0},
@@ -64,7 +64,7 @@ getgenv().Config = {
             } 
         },
         ["Gun"] = {
-            ["Enable"] = true,          
+            ["Enable"] = false,         
             ["Delay"] = 1,
             ["Skills"] = {
                 ["Z"] = {["Enable"] = true, ["HoldTime"] = 0},
